@@ -1,0 +1,67 @@
+{
+  "skill": "weixing-ppt-style",
+  "version": "2.2-share",
+  "distribution": "rules-and-code",
+  "files": [
+    {
+      "path": "weixing-ppt-style/agents/openai.yaml",
+      "bytes": 418,
+      "sha256": "a460cf0f9255e157c8afcb58b48ef9ec58e24b7bba482c0a8e359160eb9b1abc"
+    },
+    {
+      "path": "weixing-ppt-style/references/component-grammar.md",
+      "bytes": 8710,
+      "sha256": "7215aa7d96f473c05dd56db03620068cd77fb3777998dbfadb9e92f587c7d8d2"
+    },
+    {
+      "path": "weixing-ppt-style/references/composition-playbook.md",
+      "bytes": 8307,
+      "sha256": "f940a2915b4ce65dc54c794d90cb6a9a0317b306eef71fdc4cc0a4682f3d5e48"
+    },
+    {
+      "path": "weixing-ppt-style/references/implementation-notes.md",
+      "bytes": 3371,
+      "sha256": "9dbb1e572af09e5def7e6d69a50854f6e93dd55a975b541bdfd1e16a352c9a00"
+    },
+    {
+      "path": "weixing-ppt-style/references/layout-patterns.json",
+      "bytes": 9917,
+      "sha256": "012c41cc5340940b518054110a1e992264244b2a1711dfbe3923e0d88dc843b6"
+    },
+    {
+      "path": "weixing-ppt-style/references/layout-recipes.md",
+      "bytes": 3685,
+      "sha256": "92eafd10d59fa8825f32b6d3ed52f725d218dfbd35a731a2e1a12a44eaa0bbb2"
+    },
+    {
+      "path": "weixing-ppt-style/references/quality-checks.md",
+      "bytes": 2797,
+      "sha256": "2f091536b0fcaa4ec598d55bd231c86ff02155ecfd48e5e8aa7479f233fffc20"
+    },
+    {
+      "path": "weixing-ppt-style/references/style-profiles.md",
+      "bytes": 5799,
+      "sha256": "313e54ecc8d63a681135863f555a4332bffbe0ddcc162dbc9dc35a85739c6088"
+    },
+    {
+      "path": "weixing-ppt-style/references/version.json",
+      "bytes": 258,
+      "sha256": "639b7cb24729484644c2b4c9412a3a736a13ab166d4c80e7716c9c546d4f1f61"
+    },
+    {
+      "path": "weixing-ppt-style/scripts/component-kit.mjs",
+      "bytes": 5576,
+      "sha256": "8125e4a465e41319601a1ed4bd97c809400f27eb5ef73c64425fbe68ec78b003"
+    },
+    {
+      "path": "weixing-ppt-style/scripts/query_layouts.py",
+      "bytes": 1308,
+      "sha256": "a8f5e25fd4956c0757192404a8bed1f845bb4601055535cbf0ab788f368611a8"
+    },
+    {
+      "path": "weixing-ppt-style/SKILL.md",
+      "bytes": 5403,
+      "sha256": "35d2f232b7b07a7ffeceb5827d81672addd078e5051fe2a97dfad18045257861"
+    }
+  ]
+}

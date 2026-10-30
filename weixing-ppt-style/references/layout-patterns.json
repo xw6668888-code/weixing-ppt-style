@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "distribution": "text-only",
+  "patterns": [
+    {
+      "id": "T01",
+      "title": "共同需求—任务列—共同目标",
+      "profiles": [
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "研究内容",
+        "研究思路",
+        "任务分解",
+        "共同目标"
+      ],
+      "structure": "总题与需求横框 → 编号任务列 → 共同目标；左侧层级短签",
+      "components": [
+        "B01",
+        "B06"
+      ],
+      "guidance": "任务列保留方法、图文与输出；数量来自当前材料。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T02",
+      "title": "课题与相互接口",
+      "profiles": [
+        "research",
+        "classic",
+        "weekly"
+      ],
+      "tags": [
+        "研究内容",
+        "课题",
+        "任务关系",
+        "接口"
+      ],
+      "structure": "分离题签与框体；列内对象、动作和机制；列间真实接口",
+      "components": [
+        "B05",
+        "B06"
+      ],
+      "guidance": "外层可以同宽，内部图文允许不同；双向接口须有真实语义。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T03",
+      "title": "双技术树",
+      "profiles": [
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "技术路线",
+        "研究内容",
+        "分支",
+        "汇聚"
+      ],
+      "structure": "父题签 → 方法图文框 → 浅蓝能力块 → 共同输出",
+      "components": [
+        "B06"
+      ],
+      "guidance": "同时保留父分叉与子汇聚；节点数量以实际方法为准。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T04",
+      "title": "嵌套系统与分层支撑",
+      "profiles": [
+        "weekly",
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "总体架构",
+        "系统",
+        "分层",
+        "子模块"
+      ],
+      "structure": "主张 → 大模块 → 子系统 → 节点；区分同层流程与跨层支撑",
+      "components": [
+        "B05",
+        "B09"
+      ],
+      "guidance": "无填充虚线框配居中有底色标题牌，层级不能全靠颜色。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T05",
+      "title": "技术泳道与共享评估",
+      "profiles": [
+        "research",
+        "banner",
+        "weekly"
+      ],
+      "tags": [
+        "技术路线",
+        "评估",
+        "验证",
+        "泳道",
+        "共享"
+      ],
+      "structure": "左侧多条任务泳道 → 右侧贯穿评估栏 → 底部结论",
+      "components": [
+        "B07"
+      ],
+      "guidance": "多条技术共用同一验证体系时适用，指标与评价方式明确。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T06",
+      "title": "架构大图与编号侧注",
+      "profiles": [
+        "weekly",
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "架构",
+        "创新",
+        "解释",
+        "侧注"
+      ],
+      "structure": "约64%主图＋约33%编号侧注；虚线对应具体图中部位",
+      "components": [
+        "B07"
+      ],
+      "guidance": "保留主图细节，避免引线穿过主标签。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T07",
+      "title": "多输入与知识交互",
+      "profiles": [
+        "research",
+        "banner",
+        "weekly"
+      ],
+      "tags": [
+        "技术路线",
+        "知识",
+        "模型",
+        "反馈",
+        "数据流"
+      ],
+      "structure": "输入与图注 → 中部处理主链 → 输出；侧边知识块与外绕反馈",
+      "components": [
+        "B05",
+        "B09"
+      ],
+      "guidance": "先布端口再布连接；多路输入先融合再输出。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T08",
+      "title": "输入—模型—多任务结果",
+      "profiles": [
+        "weekly",
+        "research"
+      ],
+      "tags": [
+        "模型结构",
+        "网络",
+        "多任务",
+        "结果",
+        "指标"
+      ],
+      "structure": "左输入长栏 → 中部模型及下挂任务头 → 右侧后处理与邻近指标",
+      "components": [
+        "B05",
+        "B06"
+      ],
+      "guidance": "采用不等高分区，不虚构模型层或额外输出。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T09",
+      "title": "工序—实物—结构属性",
+      "profiles": [
+        "weekly",
+        "research",
+        "classic"
+      ],
+      "tags": [
+        "技术路线",
+        "工序",
+        "装置",
+        "实物",
+        "属性"
+      ],
+      "structure": "左纵向工序链 → 中实物长相框 → 右属性组 → 底部结论带",
+      "components": [
+        "B02",
+        "B03"
+      ],
+      "guidance": "照片与工序对应，阶段箭头和对象关联细线承担不同语义。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T10",
+      "title": "双机制比较与共享约束",
+      "profiles": [
+        "weekly",
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "比较",
+        "机制",
+        "算法",
+        "流程",
+        "现状"
+      ],
+      "structure": "左右带题头流程面板＋中间共享条件短竖签",
+      "components": [
+        "B02",
+        "B05"
+      ],
+      "guidance": "比较维度、基线与尺度一致；判断保留菱形。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T11",
+      "title": "图片证据与场景响应",
+      "profiles": [
+        "weekly",
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "图片",
+        "图注",
+        "背景",
+        "场景",
+        "挑战",
+        "响应",
+        "基础"
+      ],
+      "structure": "总述＋不等高图文组；或图片底座 → 挑战条 → 响应模块",
+      "components": [
+        "B01",
+        "B02",
+        "B03"
+      ],
+      "guidance": "相关图片共题共注，标题带与外框接角吻合。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T12",
+      "title": "科学证据与定量验证",
+      "profiles": [
+        "weekly",
+        "research",
+        "classic"
+      ],
+      "tags": [
+        "科学证据",
+        "结果",
+        "局部放大",
+        "公式",
+        "实验",
+        "曲线",
+        "定量验证"
+      ],
+      "structure": "同对象图像/曲线分组，或公式解释＋样件放大＋底部结果表",
+      "components": [
+        "B11"
+      ],
+      "guidance": "ROI、变量、工况与样件相互对应，保留单位和尺度。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T13",
+      "title": "成果主张—指标—证据",
+      "profiles": [
+        "weekly",
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "成果",
+        "主张",
+        "指标",
+        "结论"
+      ],
+      "structure": "悬挂主张牌 → 渐隐指标带 → 下方图解或结果矩阵",
+      "components": [
+        "B10"
+      ],
+      "guidance": "主张与数字必须能在证据区核对；未验证时改用方案结构。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T14",
+      "title": "平台与能力矩阵",
+      "profiles": [
+        "research",
+        "banner"
+      ],
+      "tags": [
+        "平台",
+        "能力",
+        "矩阵",
+        "数据",
+        "知识库"
+      ],
+      "structure": "平台胶囊 → 圆柱数据层 → 按对象分列、按能力分行的矩阵",
+      "components": [
+        "B09"
+      ],
+      "guidance": "两种分类维度真实存在，同一浅色贯穿同一语义行。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T15",
+      "title": "人员与工作基础",
+      "profiles": [
+        "classic",
+        "research",
+        "banner"
+      ],
+      "tags": [
+        "人员",
+        "团队",
+        "基础",
+        "平台",
+        "设备"
+      ],
+      "structure": "肖像名牌＋履历/成果分区，或能力概况＋设备照片组",
+      "components": [
+        "B12"
+      ],
+      "guidance": "身份与证明材料来自本次输入，照片不代替职责或证据。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T16",
+      "title": "风险与保障矩阵",
+      "profiles": [
+        "classic",
+        "research",
+        "banner"
+      ],
+      "tags": [
+        "风险",
+        "保障",
+        "措施",
+        "影响"
+      ],
+      "structure": "竖签类别 → 条件或影响 → 分隔线 → 应对结论",
+      "components": [
+        "B04"
+      ],
+      "guidance": "数量与等级按实际评估，不把每格写成同一种口号。",
+      "reference": "references/composition-playbook.md"
+    },
+    {
+      "id": "T17",
+      "title": "进度与里程碑",
+      "profiles": [
+        "weekly",
+        "research",
+        "banner",
+        "classic"
+      ],
+      "tags": [
+        "进度",
+        "计划",
+        "甘特",
+        "里程碑",
+        "分工"
+      ],
+      "structure": "时间横轴＋任务分组纵轴＋条带/节点＋阶段分隔",
+      "components": [
+        "B12"
+      ],
+      "guidance": "时间等比例，条长按真实日期，任务多先按工作包分区。",
+      "reference": "references/composition-playbook.md"
+    }
+  ]
+}

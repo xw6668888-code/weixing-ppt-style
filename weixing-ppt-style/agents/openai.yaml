@@ -1,0 +1,6 @@
+interface:
+  display_name: "科研汇报PPT风格（分享版）"
+  short_description: "用文字版式配方与组件代码组织饱满丰富的科研PPT图文、装饰框和连接关系"
+  default_prompt: "使用 $weixing-ppt-style，根据我提供的内容选择整页结构与组件组合，制作图文饱满、层次清楚的科研汇报PPT，并逐页渲染检查。"
+policy:
+  allow_implicit_invocation: true
