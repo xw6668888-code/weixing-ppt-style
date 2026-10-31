@@ -1,12 +1,12 @@
 {
   "skill": "weixing-ppt-style",
-  "version": "2.2-share",
+  "version": "2.3-share",
   "distribution": "rules-and-code",
   "files": [
     {
       "path": "weixing-ppt-style/agents/openai.yaml",
-      "bytes": 418,
-      "sha256": "a460cf0f9255e157c8afcb58b48ef9ec58e24b7bba482c0a8e359160eb9b1abc"
+      "bytes": 511,
+      "sha256": "b34099a645f72dd0e446c57b23abe5e0c774af3deddf64a96e2d229bdd740f79"
     },
     {
       "path": "weixing-ppt-style/references/component-grammar.md",
@@ -30,13 +30,13 @@
     },
     {
       "path": "weixing-ppt-style/references/layout-recipes.md",
-      "bytes": 3685,
-      "sha256": "92eafd10d59fa8825f32b6d3ed52f725d218dfbd35a731a2e1a12a44eaa0bbb2"
+      "bytes": 3947,
+      "sha256": "e62d51e0d07e015354da47667a4e3aa729c9f79dcf637e55b903e049b15eabc3"
     },
     {
       "path": "weixing-ppt-style/references/quality-checks.md",
-      "bytes": 2797,
-      "sha256": "2f091536b0fcaa4ec598d55bd231c86ff02155ecfd48e5e8aa7479f233fffc20"
+      "bytes": 3689,
+      "sha256": "88da6cf6f9ec25fe48000becb0d316f0ffc57ed45133d461517318895b0f185a"
     },
     {
       "path": "weixing-ppt-style/references/style-profiles.md",
@@ -45,8 +45,13 @@
     },
     {
       "path": "weixing-ppt-style/references/version.json",
-      "bytes": 258,
-      "sha256": "639b7cb24729484644c2b4c9412a3a736a13ab166d4c80e7716c9c546d4f1f61"
+      "bytes": 406,
+      "sha256": "7a5327ec24ebf3bd33104cce706f54be177680f6658561f8b079aebbd4520211"
+    },
+    {
+      "path": "weixing-ppt-style/references/visual-enrichment.md",
+      "bytes": 12617,
+      "sha256": "4366341399168258be7df3a653b46d6b77da0856a60f759be1a16fa71fa3f372"
     },
     {
       "path": "weixing-ppt-style/scripts/component-kit.mjs",
@@ -60,8 +65,8 @@
     },
     {
       "path": "weixing-ppt-style/SKILL.md",
-      "bytes": 5403,
-      "sha256": "35d2f232b7b07a7ffeceb5827d81672addd078e5051fe2a97dfad18045257861"
+      "bytes": 6564,
+      "sha256": "c8690c98bfed64f696cf7ef28a4b927c0007f5a2d1b303c7a98f3f6cf57a9186"
     }
   ]
 }

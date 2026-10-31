@@ -1,11 +1,18 @@
 {
-  "version": "2.2-share",
-  "updated": "2026-10-30",
+  "version": "2.3-share",
+  "updated": "2026-10-31",
   "distribution": "rules-and-code",
   "style_profiles": 4,
   "component_patterns": 12,
   "page_patterns": 17,
   "bundled_presentations": 0,
   "bundled_images": 0,
-  "requires_private_resources": false
+  "requires_private_resources": false,
+  "text_only_input": true,
+  "visual_enrichment_routes": [
+    "web-image",
+    "paper-figure",
+    "concept-generation",
+    "native-diagram"
+  ]
 }
